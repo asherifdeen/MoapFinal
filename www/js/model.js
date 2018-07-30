@@ -155,13 +155,13 @@ if (navigator.onLine){
   })
 })
 
-    var sql = 'DELETE FROM ben';
+    /*var sql = 'DELETE FROM ben';
 
     db.transaction(
         function (transaction) {
             transaction.executeSql(sql, [], showRecords, handleErrors);
         }
-    );
+    );*/
 
     resetForm();
 
